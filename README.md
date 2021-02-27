@@ -1,7 +1,7 @@
 # Unsteady porous aerofoils
 
 This repository contains the codes used to generate the results in the paper
-["Unsteady aerodynamics of porous aerofoils"](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/unsteady-aerodynamics-of-porous-aerofoils/9F7A28838D1EEB585B73E127164DCBA5) by Baddoo, Hajian and Jaworski.
+["Unsteady aerodynamics of porous aerofoils"](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/unsteady-aerodynamics-of-porous-aerofoils/9F7A28838D1EEB585B73E127164DCBA5) by Baddoo, Hajian and Jaworski in the Journal of Fluid Mechanics.
 
 <p align="center">
 <img src="figure.png" width="800">
@@ -37,9 +37,9 @@ myJacobiP.m | Calculates the Jacobi polynomials using the recurrence relation.
 myJacobiQ2.m | Calculates the Hilbert transform of the weighted Jacobi polynomials.
 myJacobiI.m | Calculates the indefinite integral of the weighted Jacobi polynomials.
 myBeta.m | My version of the incomplete Beta function that extends the domain of definition. Note that this uses the symbolic math toolbox. 
-presFUnsteady | Computes the pressure on the forward part of an aerofoil with a discontinuous porosity distribution.
-presAUnsteady | Computes the pressure on the aft part of an aerofoil with a discontinuous porosity distribution.
-vortFUnsteady | Computes the vorticity on the forward part of an aerofoil with a discontinuous porosity distribution.
-vortAUnsteady | Computes the vorticity on the aft part of an aerofoil with a discontinuous porosity distribution.
+presFUnsteady.m | Computes the pressure on the forward part of an aerofoil with a discontinuous porosity distribution.
+presAUnsteady.m | Computes the pressure on the aft part of an aerofoil with a discontinuous porosity distribution.
+vortFUnsteady.m | Computes the vorticity on the forward part of an aerofoil with a discontinuous porosity distribution.
+vortAUnsteady.m | Computes the vorticity on the aft part of an aerofoil with a discontinuous porosity distribution.
 
 If you encounter any issues then feel free to get in touch with me at [baddoo@mit.edu](baddoo@mit.edu).
